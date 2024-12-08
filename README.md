@@ -57,7 +57,8 @@
   - [Greedy Algorithms](https://en.wikipedia.org/wiki/Greedy_algorithm): Makes local optimum choices for global solutions.
   - [Divide and Conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm): Splits problems into smaller ones, solves, and combines results.
 - Algorithmic Complexity
-  - [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
+  - [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity): 
+    Measures the time an algorithm takes to run as a function of input size.
       - [O(1) - Constant Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Execution time doesn't depend on input size.
       - [O(log n) - Logarithmic Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Time grows logarithmically with input size.
       - [O(n) - Linear Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Time grows proportionally to input size.
@@ -65,7 +66,8 @@
       - [O(n²) - Quadratic Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Often results from nested loops over input size.
       - [O(2ⁿ) - Exponential Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Growth doubles with each addition to input size, e.g., solving the Traveling Salesman Problem.
       - [O(n!) - Factorial Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Infeasible for large inputs, e.g., brute force permutations.
-  - [Space Complexity](https://en.wikipedia.org/wiki/Space_complexity)
+  - [Space Complexity](https://en.wikipedia.org/wiki/Space_complexity): 
+    Measures the amount of memory an algorithm uses relative to input size.
       - [Auxiliary Space](https://www.geeksforgeeks.org/g-fact-86/): Temporary or extra space used by the algorithm.
       - [Input Space](https://en.wikipedia.org/wiki/Space_complexity): Memory required to store input data.
   - Notations:
