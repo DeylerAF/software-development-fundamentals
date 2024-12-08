@@ -58,8 +58,6 @@
   - [Divide and Conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm): Splits problems into smaller ones, solves, and combines results.
 - Algorithmic Complexity
   - [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
-    - Measures the time an algorithm takes to run as a function of input size.
-    - Common Notations:
       - [O(1) - Constant Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Execution time doesn't depend on input size.
       - [O(log n) - Logarithmic Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Time grows logarithmically with input size.
       - [O(n) - Linear Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Time grows proportionally to input size.
@@ -68,13 +66,12 @@
       - [O(2ⁿ) - Exponential Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Growth doubles with each addition to input size, e.g., solving the Traveling Salesman Problem.
       - [O(n!) - Factorial Time](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/): Infeasible for large inputs, e.g., brute force permutations.
   - [Space Complexity](https://en.wikipedia.org/wiki/Space_complexity)
-    - Measures the amount of memory an algorithm uses relative to input size.
-    - Components:
       - [Auxiliary Space](https://www.geeksforgeeks.org/g-fact-86/): Temporary or extra space used by the algorithm.
       - [Input Space](https://en.wikipedia.org/wiki/Space_complexity): Memory required to store input data.
-  - [Big-O Notation](https://en.wikipedia.org/wiki/Big_O_notation): Describes the upper bound of an algorithm's complexity.
-  - [Big-Theta Notation](https://en.wikipedia.org/wiki/Big_%CE%98_notation): Describes the average or "tight bound" of complexity.
-  - [Big-Omega Notation](https://en.wikipedia.org/wiki/Big_Omega_notation): Describes the best-case complexity.
+  - Notations:
+    - [Big-O Notation](https://en.wikipedia.org/wiki/Big_O_notation): Describes the upper bound of an algorithm's complexity.
+    - [Big-Theta Notation](https://en.wikipedia.org/wiki/Big_%CE%98_notation): Describes the average or "tight bound" of complexity.
+    - [Big-Omega Notation](https://en.wikipedia.org/wiki/Big_Omega_notation): Describes the best-case complexity.
 
 ## Software Development Principles
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID): Best practices for maintainable and scalable OOP.
