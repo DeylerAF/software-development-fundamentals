@@ -104,6 +104,30 @@
   - [Command](https://refactoring.guru/design-patterns/command): Encapsulates commands as objects.
   - [State](https://refactoring.guru/design-patterns/state): Alters behavior based on the object's state.
 
+## Software Architectural Patterns
+- [Layered Architecture (n-tier)](https://en.wikipedia.org/wiki/Multitier_architecture): Organizes code into layers like presentation, business logic, and data access for separation of concerns.
+- [Microservices](https://en.wikipedia.org/wiki/Microservices): Breaks applications into small, independently deployable services that communicate over APIs.
+- [Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture): Systems respond to events in a loosely coupled manner.
+- [Serverless Architecture](https://en.wikipedia.org/wiki/Serverless_computing): Builds applications using cloud-provided, on-demand functions without managing servers.
+- [Monolithic Architecture](https://en.wikipedia.org/wiki/Monolithic_application): A single unified codebase for the entire application.
+- [Service-Oriented Architecture (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture): Similar to microservices but focuses on reusing services across different applications.
+- [CQRS (Command Query Responsibility Segregation)](https://martinfowler.com/bliki/CQRS.html): Separates read and write operations for scalability and performance.
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html): Captures all changes to an application state as a sequence of events.
+- [Domain-Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design): Focuses on modeling the software based on real-world domains.
+
+## Software Architectural Patterns
+- [Layered Architecture (n-tier)](https://en.wikipedia.org/wiki/Multitier_architecture): Organizes code into layers like presentation, business logic, and data access for separation of concerns.
+- [Microservices](https://en.wikipedia.org/wiki/Microservices): Breaks applications into small, independently deployable services that communicate over APIs.
+- [Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture): Systems respond to events in a loosely coupled manner.
+- [Serverless Architecture](https://en.wikipedia.org/wiki/Serverless_computing): Builds applications using cloud-provided, on-demand functions without managing servers.
+- [Monolithic Architecture](https://en.wikipedia.org/wiki/Monolithic_application): A single unified codebase for the entire application.
+- [Service-Oriented Architecture (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture): Similar to microservices but focuses on reusing services across different applications.
+- [CQRS (Command Query Responsibility Segregation)](https://martinfowler.com/bliki/CQRS.html): Separates read and write operations for scalability and performance.
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html): Captures all changes to an application state as a sequence of events.
+- [Domain-Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design): Focuses on modeling the software based on real-world domains.
+- [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller): Separates applications into three interconnected components—Model (data and business logic), View (user interface), and Controller (handles input and updates the model/view).
+- [Hexagonal Architecture (Ports and Adapters)](https://alistair.cockburn.us/hexagonal-architecture/): Encourages a separation of concerns by isolating the core logic of the application from the external inputs and outputs, making the system adaptable and easier to test.
+
 ## Refactoring
 - [Code Smells](https://refactoring.guru/refactoring/smells): Indicators of problematic code needing improvement.
   - [Duplicated Code](https://refactoring.guru/smells/duplicated-code): Identical code blocks scattered throughout.
